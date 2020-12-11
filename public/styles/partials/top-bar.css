@@ -1,0 +1,19 @@
+.top-bar {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: .8rem 0;
+    background-color: #a6e6c6;
+}
+
+.top-bar .top-bar-image {
+    width: 5rem;
+}
+
+@media (max-width: 700px) {
+    .top-bar .top-bar-image {
+        width: 4.5rem;
+    }
+}

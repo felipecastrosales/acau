@@ -1,0 +1,90 @@
+.page-header {
+    display: flex;
+    flex-direction: column;
+}
+
+.page-header .data-container {
+    width: 95%;
+    margin: -11rem auto 0rem;
+    align-items: center;
+    justify-content: center;
+    padding: 8.5rem 0rem 1rem;
+    background: #deeee0;
+    border-radius: 8rem 8rem 1rem 1rem;
+    border: 1px solid #74c69d;
+}
+
+.page-header .image-container .hero-image {
+    width: 30rem;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem 0 2.5rem;
+    position: relative;
+}
+
+hr.top {
+    border: 1px solid #74c69d;
+    justify-content: center;
+    align-items: center;
+    margin: auto 40rem;
+}
+
+.page-header .data-container h1 {
+    padding: 2rem 0;
+    justify-content: center;
+    text-align: center;
+    color: #081c15;
+    font: 800 clamp(3rem, 5vw, 8rem) 6rem/1 "Nunito", sans-serif;
+}
+
+.page-header .data-container .acau-place img {
+    margin: 0 auto;
+    padding: 0;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    width: 85%;
+    border-radius: 3rem;
+    display: block;
+    box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.25);
+    -webkit-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.25);
+    -moz-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.25);
+}
+
+.page-header .data-container p {
+    margin: auto;
+    padding: 1rem 0;
+    justify-content: center;
+    text-align: left;
+    color: #081c15;
+    font: 700 clamp(3rem, 5vw, 8rem) 3.6rem/1.1 "Nunito", sans-serif;
+}
+
+@media (max-width: 700px) {
+    .page-header .image-container .hero-image {
+        width: 20rem;
+        padding: .5rem 0 1.5rem;
+    }
+    hr.top {
+        border: 1px solid #74c69d;
+        margin: 0 6rem;
+    }
+    .page-header .data-container {
+        margin: -7.5rem auto 0rem;
+        padding: 6rem 2rem 1rem;
+        border-radius: 5rem 5rem 1rem 1rem; 
+    }
+    .page-header .data-container h1 {
+        padding: 2rem 0 1.2rem;
+    }
+    .page-header .data-container .acau-place img {
+        margin: 0 auto;
+        width: 100%;
+        border-radius: 2rem;
+    }
+    .page-header .data-container p {
+        justify-content: center;
+    }
+}

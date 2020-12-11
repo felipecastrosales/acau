@@ -1,0 +1,45 @@
+#hero-banner {
+    overflow: hidden;
+    position: relative;
+}
+
+#hero-banner img {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: contain; 
+}
+
+#hero-banner h2 {
+    position: absolute;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    color: #ffffff;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 5rem;
+    line-height: 5rem;
+}
+
+@media (max-width: 750px) {
+    #hero-banner h2 {
+        font-size: 2.5rem;
+        line-height: 5rem;  
+    }
+}
+
+@media (max-width: 600px) {
+    #hero-banner h2 {
+        font-size: 2.5rem;
+        line-height: 3rem;
+    }
+}
+
+@media (max-width: 500px) {
+    #hero-banner h2 {
+        line-height: 2.5rem;
+    }
+}

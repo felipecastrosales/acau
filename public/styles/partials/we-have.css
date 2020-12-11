@@ -1,0 +1,14 @@
+.we-have {
+    margin: auto;
+}
+
+.we-have .we-container {
+    padding: 10rem;
+}
+
+hr.we {
+    border: 1px solid #f4f4f4;
+    justify-content: center;
+    align-items: center;
+    margin: auto 40rem;
+}

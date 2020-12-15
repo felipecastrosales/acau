@@ -1,14 +1,57 @@
 .we-have {
-    margin: auto;
+    align-items: center;
+    justify-content: center;
+    background-color: #ebf2f5;
+    margin: 0;
+    padding: 1rem 12rem;
 }
 
-.we-have .we-container {
-    padding: 10rem;
+.we-have h2 {
+    justify-content: center;
+    text-align: center;
+    font: 700 2.75rem "Nunito", sans-serif;
+    color: #40916c;
+    padding: 1rem 0 0;
 }
 
 hr.we {
-    border: 1px solid #f4f4f4;
+    border: 1px solid #40916c;
     justify-content: center;
     align-items: center;
-    margin: auto 40rem;
+    margin: 2rem 40rem;
+}
+
+.items-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 16px;
+    margin: 0 30rem;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+}
+
+.card {
+    flex: 0 0 200px;
+    margin: .75rem;
+    border: 1px solid #ccc;
+    border-radius: 2.5rem;
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.25);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+} 
+
+.card img {
+    max-width: 12.5rem;
+    padding: 2rem 0 .5rem;
+}
+
+.card h3 {
+    font-size: 2rem;
+    padding: 2rem;
+    color: #40916c;
 }

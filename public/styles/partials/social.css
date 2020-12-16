@@ -1,0 +1,75 @@
+.social {
+    align-items: center;
+    justify-content: center;
+    background-color: #40916c;
+    margin: 0;
+}
+
+.social .media {
+    padding: 0 30rem;
+    justify-content: center;
+}
+
+.social h2 {
+    justify-content: center;
+    text-align: center;
+    font: 700 2.75rem "Nunito", sans-serif;
+    color: #f4f4f4;
+    padding: 2rem 0 0;
+}
+
+hr.rs {
+    border: 1px solid #f4f4f4;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem 0;
+}
+
+.buttons {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.buttons a {
+    margin: 0 2.5rem 4rem;
+    width: 5rem;
+    height: 5rem;
+    font-size: 24px;
+    background-color: #f4f4f4;
+    border-radius: 50%;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, .5);
+}
+
+.fa {
+    padding: 1rem;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
+
+.fa-facebook {
+    color: 214ca8;
+}
+
+.fa-instagram {
+    color: #e4405f;;
+}
+
+@media (max-width: 920px) {
+    .social .media {
+        padding: 0 10rem;
+    }
+}
+
+@media (max-width: 450px) {
+    .social .media {
+        padding: 0 5rem;
+    }
+}
+
+@media (max-width: 450px) {
+    .social .media {
+        padding: 0 2rem;
+    }
+}

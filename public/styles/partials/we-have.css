@@ -3,7 +3,11 @@
     justify-content: center;
     background-color: #ebf2f5;
     margin: 0;
-    padding: 1rem 12rem;
+}
+
+.we-have .we-container {
+    padding: 0 30rem;
+    justify-content: center;
 }
 
 .we-have h2 {
@@ -11,21 +15,21 @@
     text-align: center;
     font: 700 2.75rem "Nunito", sans-serif;
     color: #40916c;
-    padding: 1rem 0 0;
+    padding: 2rem 0 0;
 }
 
 hr.we {
     border: 1px solid #40916c;
     justify-content: center;
     align-items: center;
-    margin: 2rem 40rem;
+    margin: 1rem 0;
 }
 
 .items-grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 16px;
-    margin: 0 30rem;
+    margin: 0 auto;
 }
 
 .cards {
@@ -54,4 +58,45 @@ hr.we {
     font-size: 2rem;
     padding: 2rem;
     color: #40916c;
+}
+
+@media (max-width: 1300px) {
+    .we-have .we-container {
+        padding: 0 20rem;
+    }
+    hr.we {
+        margin: 1rem 0  rem;
+    }
+}
+
+@media (max-width: 920px) {
+    .we-have .we-container {
+        padding: 0 10rem;
+    }
+    hr.we {
+        margin: 1rem 20rem;
+    }
+    .card img {
+        max-width: 7.5rem;
+        padding: 1rem 0 .25rem;
+    }
+}
+
+@media (max-width: 700px) {
+    .items-grid {
+        grid-template-columns: 1fr 1fr;
+        gap: 0;
+    }
+    .we-have .we-container {
+        padding: 0 5rem;
+    }
+    hr.we {
+        margin: 1rem 10rem;
+    }
+}
+
+@media (max-width: 450px) {
+    .items-grid {
+        grid-template-columns: auto;
+    }
 }

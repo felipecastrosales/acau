@@ -15,14 +15,14 @@
     text-align: center;
     font: 700 2.75rem "Nunito", sans-serif;
     color: #40916c;
-    padding: 1rem 0 0;
+    padding: 2rem 0 0;
 }
 
 hr.we {
     border: 1px solid #40916c;
     justify-content: center;
     align-items: center;
-    margin: 2rem 0;
+    margin: 1rem 0;
 }
 
 .items-grid {
@@ -95,7 +95,7 @@ hr.we {
     }
 }
 
-@media (max-width: 430px) {
+@media (max-width: 450px) {
     .items-grid {
         grid-template-columns: auto;
     }

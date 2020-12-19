@@ -8,7 +8,7 @@
 
 <p align="center">Atualizações estão por vir... 🚧</p>
 
-<h2 align="center"><a href="https://museuacau.vercel.app/" target="_blank">>Nos visite 😃</a></h2>
+<h2 align="center"><a href="https://museuacau.vercel.app/" target="_blank">Nos visite 😃</a></h2>
 
 ---
 

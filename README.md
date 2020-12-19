@@ -1,12 +1,12 @@
 <p align="center">
-      <img src="public/images/icons/cccu.png" width="160px" alt="ACAU Logo"/>
+      <img src="https://user-images.githubusercontent.com/59374587/102690946-9fd94800-41e7-11eb-8ea4-45827acfb8b8.png" width="160px" alt="ACAU Logo"/>
 </p>
 
 ---
 
 <h1 align="center">Associação Artística e Cultural de Uruburetama 🏛️</h1>
 
-<p align="center">Ainda em desenvolvimento 🚧</p>
+<p align="center">Atualizações estão por vir... 🚧</p>
 
 
 ---

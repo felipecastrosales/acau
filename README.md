@@ -1,3 +1,7 @@
+<h1 align="center">🛑 O projeto foi pausado e não tem nenhuma previsão de retorno. 🛑</h1>
+
+---
+
 <p align="center">
       <img src="https://user-images.githubusercontent.com/59374587/102690946-9fd94800-41e7-11eb-8ea4-45827acfb8b8.png" width="160px" alt="ACAU Logo"/>
 </p>
